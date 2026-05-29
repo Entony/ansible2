@@ -1,0 +1,14 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-vm:
+      ansible_host: 84.252.143.166
+  vars:
+    ansible_user: centos
+
+vector:
+  hosts:
+    vector-vm: 
+      ansible_host: 51.250.104.87
+  vars:
+    ansible_user: centos
